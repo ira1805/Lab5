@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Карпельова Ірина ІС-93</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="П'ята лабораторна робота з основ WEB-розробки">
+        <meta name="keywords" content="HTML5, CSS3, JS">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1><b>Завдання 1</b></h1>
+        <div class="first">
+
+            <div class="form-container">
+                <form method="post" action="#">
+                   
+                        <label for="get-name"></label>
+                        <input id="get-name" type="text" placeholder="ПІБ: ТТТТТ Т.Т."/>
+                    
+                    
+                        <label for="get-date"></label>
+                        <input id="get-date" type="text" placeholder="Дата народження: ЧЧ.ЧЧ.ЧЧЧЧ"/>
+                   
+                    
+                        <label for="get-addres"></label>
+                        <input id="get-addres" type="text" placeholder="Адреса: м. ТТТТТ"/>
+                   
+                        <label for="get-mail"></label>
+                        <input id="get-mail" type="text" placeholder="E-mail: ТТТТТ@ТТТ.com"/>
+                    
+                        <label for="get-tel"></label>
+                        <input id="get-tel" type="text" placeholder="Telegram: @TTTTT"/>
+                </form>
+            </div>
+            <div class="post-container">
+                <div>ПІБ:</div>
+                <div>Дата народження:</div>
+                <div>Адреса:</div>
+                <div>E-mail:</div>
+                <div>Telegram:</div>
+            
+            </div>
+            <button onclick="validate_input()">Підтвердити</button>
+        </div>
+        <hr style="height:2px;border-width:0;color:black;background-color:black">
+        <h1><b>Завдання 2</b></h1>
+        <div class="second">
+            <input type="color" id="head" name="head" value="#e66465">
+            <table data-dbl="0">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td onmouseover="random_change(this)" onclick="selected_change(this)" ondblclick="set_dbl()">6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td>34</td>
+                    <td>35</td>
+                    <td>36</td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
